@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1884F44920ADBC6500BD9BCA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1884F44820ADBC6500BD9BCA /* AppDelegate.m */; };
+		1884F44C20ADBC6500BD9BCA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1884F44B20ADBC6500BD9BCA /* ViewController.m */; };
+		1884F44F20ADBC6500BD9BCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1884F44D20ADBC6500BD9BCA /* Main.storyboard */; };
+		1884F45120ADBC6600BD9BCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1884F45020ADBC6600BD9BCA /* Assets.xcassets */; };
+		1884F45420ADBC6600BD9BCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1884F45220ADBC6600BD9BCA /* LaunchScreen.storyboard */; };
+		1884F45720ADBC6600BD9BCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1884F45620ADBC6600BD9BCA /* main.m */; };
+		1884F46120ADBC6600BD9BCA /* DFSmartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1884F46020ADBC6600BD9BCA /* DFSmartTests.m */; };
+		1884F46C20ADBC6600BD9BCA /* DFSmartUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1884F46B20ADBC6600BD9BCA /* DFSmartUITests.m */; };
+		34D2333DCE03A25C7CAE6FD5 /* libPods-DFSmart.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3709F2AC200CB956AA01B515 /* libPods-DFSmart.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1884F45D20ADBC6600BD9BCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1884F43C20ADBC6500BD9BCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1884F44320ADBC6500BD9BCA;
+			remoteInfo = DFSmart;
+		};
+		1884F46820ADBC6600BD9BCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1884F43C20ADBC6500BD9BCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1884F44320ADBC6500BD9BCA;
+			remoteInfo = DFSmart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1884F44420ADBC6500BD9BCA /* DFSmart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DFSmart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1884F44720ADBC6500BD9BCA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1884F44820ADBC6500BD9BCA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1884F44A20ADBC6500BD9BCA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1884F44B20ADBC6500BD9BCA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1884F44E20ADBC6500BD9BCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1884F45020ADBC6600BD9BCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1884F45320ADBC6600BD9BCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1884F45520ADBC6600BD9BCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1884F45620ADBC6600BD9BCA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1884F45C20ADBC6600BD9BCA /* DFSmartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DFSmartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1884F46020ADBC6600BD9BCA /* DFSmartTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFSmartTests.m; sourceTree = "<group>"; };
+		1884F46220ADBC6600BD9BCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1884F46720ADBC6600BD9BCA /* DFSmartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DFSmartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1884F46B20ADBC6600BD9BCA /* DFSmartUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DFSmartUITests.m; sourceTree = "<group>"; };
+		1884F46D20ADBC6600BD9BCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		325C4309755A8E0B345D1341 /* Pods-DFSmart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DFSmart.release.xcconfig"; path = "Pods/Target Support Files/Pods-DFSmart/Pods-DFSmart.release.xcconfig"; sourceTree = "<group>"; };
+		3709F2AC200CB956AA01B515 /* libPods-DFSmart.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DFSmart.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9621EDD3EA51F3550CDA69D4 /* Pods-DFSmart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DFSmart.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DFSmart/Pods-DFSmart.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1884F44120ADBC6500BD9BCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34D2333DCE03A25C7CAE6FD5 /* libPods-DFSmart.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1884F45920ADBC6600BD9BCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1884F46420ADBC6600BD9BCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1884F43B20ADBC6500BD9BCA = {
+			isa = PBXGroup;
+			children = (
+				1884F44620ADBC6500BD9BCA /* DFSmart */,
+				1884F45F20ADBC6600BD9BCA /* DFSmartTests */,
+				1884F46A20ADBC6600BD9BCA /* DFSmartUITests */,
+				1884F44520ADBC6500BD9BCA /* Products */,
+				9EC92264A9CF5F3A345F9DDB /* Pods */,
+				94B91E03EF6E55FAD2A92030 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1884F44520ADBC6500BD9BCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1884F44420ADBC6500BD9BCA /* DFSmart.app */,
+				1884F45C20ADBC6600BD9BCA /* DFSmartTests.xctest */,
+				1884F46720ADBC6600BD9BCA /* DFSmartUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1884F44620ADBC6500BD9BCA /* DFSmart */ = {
+			isa = PBXGroup;
+			children = (
+				1884F44720ADBC6500BD9BCA /* AppDelegate.h */,
+				1884F44820ADBC6500BD9BCA /* AppDelegate.m */,
+				1884F44A20ADBC6500BD9BCA /* ViewController.h */,
+				1884F44B20ADBC6500BD9BCA /* ViewController.m */,
+				1884F44D20ADBC6500BD9BCA /* Main.storyboard */,
+				1884F45020ADBC6600BD9BCA /* Assets.xcassets */,
+				1884F45220ADBC6600BD9BCA /* LaunchScreen.storyboard */,
+				1884F45520ADBC6600BD9BCA /* Info.plist */,
+				1884F45620ADBC6600BD9BCA /* main.m */,
+			);
+			path = DFSmart;
+			sourceTree = "<group>";
+		};
+		1884F45F20ADBC6600BD9BCA /* DFSmartTests */ = {
+			isa = PBXGroup;
+			children = (
+				1884F46020ADBC6600BD9BCA /* DFSmartTests.m */,
+				1884F46220ADBC6600BD9BCA /* Info.plist */,
+			);
+			path = DFSmartTests;
+			sourceTree = "<group>";
+		};
+		1884F46A20ADBC6600BD9BCA /* DFSmartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1884F46B20ADBC6600BD9BCA /* DFSmartUITests.m */,
+				1884F46D20ADBC6600BD9BCA /* Info.plist */,
+			);
+			path = DFSmartUITests;
+			sourceTree = "<group>";
+		};
+		94B91E03EF6E55FAD2A92030 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3709F2AC200CB956AA01B515 /* libPods-DFSmart.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9EC92264A9CF5F3A345F9DDB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9621EDD3EA51F3550CDA69D4 /* Pods-DFSmart.debug.xcconfig */,
+				325C4309755A8E0B345D1341 /* Pods-DFSmart.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1884F44320ADBC6500BD9BCA /* DFSmart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1884F47020ADBC6600BD9BCA /* Build configuration list for PBXNativeTarget "DFSmart" */;
+			buildPhases = (
+				F9EAA5126B8AFD1F644585C3 /* [CP] Check Pods Manifest.lock */,
+				1884F44020ADBC6500BD9BCA /* Sources */,
+				1884F44120ADBC6500BD9BCA /* Frameworks */,
+				1884F44220ADBC6500BD9BCA /* Resources */,
+				64970AFBC03B780F909BA9C1 /* [CP] Embed Pods Frameworks */,
+				743723B377D14BAC78F22A84 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DFSmart;
+			productName = DFSmart;
+			productReference = 1884F44420ADBC6500BD9BCA /* DFSmart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1884F45B20ADBC6600BD9BCA /* DFSmartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1884F47320ADBC6600BD9BCA /* Build configuration list for PBXNativeTarget "DFSmartTests" */;
+			buildPhases = (
+				1884F45820ADBC6600BD9BCA /* Sources */,
+				1884F45920ADBC6600BD9BCA /* Frameworks */,
+				1884F45A20ADBC6600BD9BCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1884F45E20ADBC6600BD9BCA /* PBXTargetDependency */,
+			);
+			name = DFSmartTests;
+			productName = DFSmartTests;
+			productReference = 1884F45C20ADBC6600BD9BCA /* DFSmartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1884F46620ADBC6600BD9BCA /* DFSmartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1884F47620ADBC6600BD9BCA /* Build configuration list for PBXNativeTarget "DFSmartUITests" */;
+			buildPhases = (
+				1884F46320ADBC6600BD9BCA /* Sources */,
+				1884F46420ADBC6600BD9BCA /* Frameworks */,
+				1884F46520ADBC6600BD9BCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1884F46920ADBC6600BD9BCA /* PBXTargetDependency */,
+			);
+			name = DFSmartUITests;
+			productName = DFSmartUITests;
+			productReference = 1884F46720ADBC6600BD9BCA /* DFSmartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1884F43C20ADBC6500BD9BCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					1884F44320ADBC6500BD9BCA = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					1884F45B20ADBC6600BD9BCA = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 1884F44320ADBC6500BD9BCA;
+					};
+					1884F46620ADBC6600BD9BCA = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 1884F44320ADBC6500BD9BCA;
+					};
+				};
+			};
+			buildConfigurationList = 1884F43F20ADBC6500BD9BCA /* Build configuration list for PBXProject "DFSmart" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1884F43B20ADBC6500BD9BCA;
+			productRefGroup = 1884F44520ADBC6500BD9BCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1884F44320ADBC6500BD9BCA /* DFSmart */,
+				1884F45B20ADBC6600BD9BCA /* DFSmartTests */,
+				1884F46620ADBC6600BD9BCA /* DFSmartUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1884F44220ADBC6500BD9BCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1884F45420ADBC6600BD9BCA /* LaunchScreen.storyboard in Resources */,
+				1884F45120ADBC6600BD9BCA /* Assets.xcassets in Resources */,
+				1884F44F20ADBC6500BD9BCA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1884F45A20ADBC6600BD9BCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1884F46520ADBC6600BD9BCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		64970AFBC03B780F909BA9C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DFSmart/Pods-DFSmart-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		743723B377D14BAC78F22A84 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DFSmart/Pods-DFSmart-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DFSmart/Pods-DFSmart-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9EAA5126B8AFD1F644585C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DFSmart-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1884F44020ADBC6500BD9BCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1884F44C20ADBC6500BD9BCA /* ViewController.m in Sources */,
+				1884F45720ADBC6600BD9BCA /* main.m in Sources */,
+				1884F44920ADBC6500BD9BCA /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1884F45820ADBC6600BD9BCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1884F46120ADBC6600BD9BCA /* DFSmartTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1884F46320ADBC6600BD9BCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1884F46C20ADBC6600BD9BCA /* DFSmartUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1884F45E20ADBC6600BD9BCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1884F44320ADBC6500BD9BCA /* DFSmart */;
+			targetProxy = 1884F45D20ADBC6600BD9BCA /* PBXContainerItemProxy */;
+		};
+		1884F46920ADBC6600BD9BCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1884F44320ADBC6500BD9BCA /* DFSmart */;
+			targetProxy = 1884F46820ADBC6600BD9BCA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1884F44D20ADBC6500BD9BCA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1884F44E20ADBC6500BD9BCA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1884F45220ADBC6600BD9BCA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1884F45320ADBC6600BD9BCA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1884F46E20ADBC6600BD9BCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1884F46F20ADBC6600BD9BCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1884F47120ADBC6600BD9BCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9621EDD3EA51F3550CDA69D4 /* Pods-DFSmart.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KRV5T3384C;
+				INFOPLIST_FILE = DFSmart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haier.DFSmart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1884F47220ADBC6600BD9BCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 325C4309755A8E0B345D1341 /* Pods-DFSmart.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KRV5T3384C;
+				INFOPLIST_FILE = DFSmart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haier.DFSmart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1884F47420ADBC6600BD9BCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KRV5T3384C;
+				INFOPLIST_FILE = DFSmartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haier.DFSmartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DFSmart.app/DFSmart";
+			};
+			name = Debug;
+		};
+		1884F47520ADBC6600BD9BCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KRV5T3384C;
+				INFOPLIST_FILE = DFSmartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haier.DFSmartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DFSmart.app/DFSmart";
+			};
+			name = Release;
+		};
+		1884F47720ADBC6600BD9BCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KRV5T3384C;
+				INFOPLIST_FILE = DFSmartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haier.DFSmartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DFSmart;
+			};
+			name = Debug;
+		};
+		1884F47820ADBC6600BD9BCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KRV5T3384C;
+				INFOPLIST_FILE = DFSmartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haier.DFSmartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DFSmart;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1884F43F20ADBC6500BD9BCA /* Build configuration list for PBXProject "DFSmart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1884F46E20ADBC6600BD9BCA /* Debug */,
+				1884F46F20ADBC6600BD9BCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1884F47020ADBC6600BD9BCA /* Build configuration list for PBXNativeTarget "DFSmart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1884F47120ADBC6600BD9BCA /* Debug */,
+				1884F47220ADBC6600BD9BCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1884F47320ADBC6600BD9BCA /* Build configuration list for PBXNativeTarget "DFSmartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1884F47420ADBC6600BD9BCA /* Debug */,
+				1884F47520ADBC6600BD9BCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1884F47620ADBC6600BD9BCA /* Build configuration list for PBXNativeTarget "DFSmartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1884F47720ADBC6600BD9BCA /* Debug */,
+				1884F47820ADBC6600BD9BCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1884F43C20ADBC6500BD9BCA /* Project object */;
+}
