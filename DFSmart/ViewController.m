@@ -10,6 +10,9 @@
 
 @interface ViewController ()
 
+@property (nonatomic, strong) UIView *showView;
+
+
 @end
 
 @implementation ViewController
