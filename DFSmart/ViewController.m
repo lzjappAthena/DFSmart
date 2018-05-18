@@ -9,10 +9,15 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-
+/**
+ 背景
+ */
 @property (nonatomic, strong) UIView *showView;
-@property (nonatomic, strong) UIImageView *cover;
 
+/**
+ 头像
+ */
+@property (nonatomic, strong) UIImageView *cover;
 
 @end
 
