@@ -19,7 +19,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    [self initView];
 }
 
 
@@ -28,5 +28,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark - init
+
+- (void)initView {
+    NSLog(@"%@",__FUNCTION__);
+}
 
 @end
