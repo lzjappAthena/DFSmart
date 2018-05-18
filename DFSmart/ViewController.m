@@ -31,7 +31,13 @@
 #pragma mark - init
 
 - (void)initView {
-    NSLog(@"%@",__FUNCTION__);
+    NSLog(@"%s",__FUNCTION__);
 }
+
+- (void)dev {
+    NSLog(@"%s",__FUNCTION__);
+}
+
+
 
 @end
