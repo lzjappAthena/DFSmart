@@ -11,6 +11,7 @@
 @interface ViewController ()
 
 @property (nonatomic, strong) UIView *showView;
+@property (nonatomic, strong) UIImageView *cover;
 
 
 @end
