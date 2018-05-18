@@ -14,9 +14,6 @@
  */
 @property (nonatomic, strong) UIView *showView;
 
-/**
- 头像
- */
 @property (nonatomic, strong) UIImageView *cover;
 
 @end
